@@ -9,7 +9,7 @@ The algorithim can be used with VSCode and different image files of colors - sup
 
 1. Connect your Jetson Nano to your computer on PuTTY and VSCode
 2. Download an image of a solid color that you want to test
-3. Make sure that resnet18.onnx is downloaded under models/color_recognition using "ls models/color_recognition". If it is not there, go to jetson-inference/python/training/classification in PuTTY and run "python3 onnx_export.py --model-dir=models/color_recognition"
+3. Make sure that resnet18.onnx is downloaded under models/color_recognition using "ls models/color_recognition". If it is not there, go to jetson-inference/python/training/classification in the docker in PuTTY and run "python3 onnx_export.py --model-dir=models/color_recognition"
 4. Set the NET and DATASET variables in VSCode (NET=models/color_recognition, DATASET=data/color_recognition)
 5. Run "imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/[folder in /test/ in which you put your image]/[initial image name] [new image name]
 6. Open the newly generated image with the prediction
