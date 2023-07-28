@@ -18,4 +18,4 @@ Ex.
 
 ![identifying white as white](https://i.imgur.com/Krwrii4.jpg)
 
-[View a video explanation here](video link)
+[Video link ](https://www.youtube.com/watch?v=IZtD8vG5Q5Y)
