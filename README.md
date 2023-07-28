@@ -3,7 +3,7 @@
 This model is used to recognize color shades. It is trained on an imagenet Resnet-18 model using transfer learning.
 
 ## The Algorithm
-The algorithim can be used with VSCode and different image files of colors - supported by Jetson nano. It uses a 2GB Jetson Nano, and so it uses it a preflashed SD card flashed from the NVIDIA webpage. It is meant to detect shades that can be associated basic colors (red, orange, yellow, green, blue, purple, black, white) and determine which color group the shade belongs in.
+The algorithim can be used with VSCode and different image files of colors - supported by Jetson nano. It uses a 2GB Jetson Nano, and so it uses it a preflashed SD card flashed from the NVIDIA webpage. It is meant to detect shades that can be associated basic colors (red, orange, yellow, green, blue, purple, black, white) and determine which color group the shade belongs in. The accuracy could be lower depending on whether or not the shade is irregular and can be associated with multiple colors (such as pink or brown)
 
 ## Running this project
 
