@@ -17,5 +17,5 @@ The algorithim can be used with VSCode and different image files of colors - sup
 Ex.
 
 ![identifying white as white](https://i.imgur.com/Krwrii4.jpg)
-
+![identifying blue as blue](https://i.imgur.com/Rq09rsT.jpg)
 [Video link ](https://www.youtube.com/watch?v=IZtD8vG5Q5Y)
